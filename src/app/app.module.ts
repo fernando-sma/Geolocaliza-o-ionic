@@ -8,7 +8,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
 import { Geolocation } from '@ionic-native/geolocation';
-
+import {GoogleMaps} from '@ionic-native/google-maps'
 @NgModule({
   declarations: [
     MyApp,
@@ -27,6 +27,7 @@ import { Geolocation } from '@ionic-native/geolocation';
     StatusBar,
     SplashScreen,
     Geolocation,
+    GoogleMaps,
 
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
